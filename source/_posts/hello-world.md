@@ -1,11 +1,10 @@
 ---
-title: welcom
+title: welcom2
 date: 2020-03-03 21:10:31
-tags: 杂谈
+tags: 
+- cs
+- talk
 
-
-# welcom
-这是第一篇文章
 ---
 
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
