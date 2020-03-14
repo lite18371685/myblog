@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-03-14 11:27:10 / 修改时间：03:32:00" itemprop="dateCreated datePublished" datetime="2020-03-14T11:27:10+00:00">2020-03-14</time>
+              <time title="创建时间：2020-03-14 11:27:10 / 修改时间：12:08:14" itemprop="dateCreated datePublished" datetime="2020-03-14T11:27:10+00:00">2020-03-14</time>
             </span>
 
           
@@ -184,7 +184,29 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <h2 id="文件状态"><a href="#文件状态" class="headerlink" title="文件状态"></a>文件状态</h2><p><img src="http://q76gbpmd0.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200314174407.jpg" alt="img"></p>
+<h2 id="回退"><a href="#回退" class="headerlink" title="回退"></a>回退</h2><p>git reset &lt;commit ID&gt;</p>
+<p>git reflog 查看所有的commit，相比git log 更全</p>
+<p>git pull可以直接回到最新分支</p>
+<p>git reset一共有三种模式</p>
+<ul>
+<li>–hard：不保存所有变更</li>
+<li>–soft：保留变更且变更内容处于Staged</li>
+<li>–mixed（默认）：保留变更且变更内容处于Modified</li>
+</ul>
+<h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><p>git checkout -b &lt;name&gt; &lt;template&gt;  创建新的分支，name：分支名，template：以某个分支为模板</p>
+<p>git checkout &lt;name&gt; 切换分支， 切换后仓库内的文件也会切换</p>
+<h2 id="合并"><a href="#合并" class="headerlink" title="合并"></a>合并</h2><p>git merge可以合并分支的变更（不是合并分支）</p>
+<p>如遇到冲突，可以手动修改后再 add，commit</p>
+<h2 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h2><p>git push –set-upstream origin bc-a</p>
+<p>set-upstream是指设置上流分支，origin是指远端仓库，</p>
+<p>这句话的意思是将远端仓库的bc-a分支作为本地分支的上流分支</p>
+<p>小结：如果我们本地的分支是新切的，则需要先通过 git push –set-upstream设置上流分支，后面就可使用git push了</p>
+<p>pull = 先fetch再自动merge</p>
+<h2 id="变基"><a href="#变基" class="headerlink" title="变基"></a>变基</h2><p><img src="http://q76gbpmd0.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200314192114.jpg" alt="img"></p>
+<p>rebase的原理是枚举变更的commit，依次变基。</p>
+<p>rebase就是重新排列base，而base就是指commit</p>
+
       
     </div>
 
@@ -234,7 +256,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-14 03:32:00" itemprop="dateModified" datetime="2020-03-14T03:32:00+00:00">2020-03-14</time>
+                <time title="修改时间：2020-03-14 12:08:14" itemprop="dateModified" datetime="2020-03-14T12:08:14+00:00">2020-03-14</time>
               </span>
 
           
@@ -301,7 +323,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-14 03:32:00" itemprop="dateModified" datetime="2020-03-14T03:32:00+00:00">2020-03-14</time>
+                <time title="修改时间：2020-03-14 12:08:14" itemprop="dateModified" datetime="2020-03-14T12:08:14+00:00">2020-03-14</time>
               </span>
 
           
@@ -375,7 +397,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-14 03:32:00" itemprop="dateModified" datetime="2020-03-14T03:32:00+00:00">2020-03-14</time>
+                <time title="修改时间：2020-03-14 12:08:14" itemprop="dateModified" datetime="2020-03-14T12:08:14+00:00">2020-03-14</time>
               </span>
 
           
@@ -452,7 +474,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-14 03:32:00" itemprop="dateModified" datetime="2020-03-14T03:32:00+00:00">2020-03-14</time>
+                <time title="修改时间：2020-03-14 12:08:14" itemprop="dateModified" datetime="2020-03-14T12:08:14+00:00">2020-03-14</time>
               </span>
 
           
@@ -554,7 +576,7 @@
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
